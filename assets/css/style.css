@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(187, 198, 208);
+  padding: 30px;
+}
+
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
